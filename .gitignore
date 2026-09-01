@@ -1,0 +1,21 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+
+# Terraform sensitive files
+*.auto.tfvars
+*.auto.tfvars.json
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Local backup
+terraform-backup/
