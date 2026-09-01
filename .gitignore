@@ -19,3 +19,8 @@ crash.*.log
 
 # Local backup
 terraform-backup/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
